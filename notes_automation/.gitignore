@@ -1,2 +1,5 @@
 __pycache__/
 .pytest_cache/
+reports/report.html
+reports/allure-results/
+reports/allure-report/

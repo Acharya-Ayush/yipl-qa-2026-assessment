@@ -12,9 +12,8 @@ Execution CheetSheets
 
 pytest -m smoke -v --maxfail=1 --tb=short
 
-Run tests results:
-
-pytest --alluredir=allure-results
+Run tests report:
+pytest -m smoke -n auto --html=reports/report.html --self-contained-html
 
 
 

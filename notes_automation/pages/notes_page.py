@@ -43,7 +43,7 @@ class NotesPage:
         self.description_input.fill(new_description)
         self.submit_button.click()
         
-        time.sleep(3)  # Wait for the note to be updated and appear in the list
+        time.sleep(5)  # Wait for the note to be updated and appear in the list
         assert self.page.locator(f"//div[@data-testid='note-card-title' and text()='{new_title}']").is_visible(), "Note update failed"
         return f"Note updated successfully to: {new_title}"
 

@@ -10,10 +10,10 @@ Command:
 
 Execution CheetSheets
 
-pytest -m smoke -v --maxfail=1 --tb=short
+pytest -m smoke
 
-Run tests report:
-pytest -m smoke -n auto --html=reports/report.html --self-contained-html
+Run tests parallelly and test report as HTML:
+pytest 
 
 
 

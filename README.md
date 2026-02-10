@@ -10,7 +10,7 @@ Command:
 
 Execution CheetSheets
 
-pytest -m smoke
+pytest -m smoke -s
 
 Run tests parallelly and test report as HTML:
 pytest 

@@ -10,4 +10,4 @@ def test_valid_signup_and_login(page):
     signup_page.signup()
     login_page = LoginPage(page)
     login_page.navigate(BASE_URL)
-    login_page.login()  # uses credentials from .env
+    login_page.login()  
